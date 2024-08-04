@@ -6,7 +6,7 @@ class CustomerProvider extends ChangeNotifier {
   List<Customer> _customers = [];
   late final AppDatabase _database;
 
-  CustomerProvider([customerDAO]) {
+  CustomerProvider() {
     _initDatabase();
   }
 

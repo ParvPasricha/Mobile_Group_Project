@@ -1,4 +1,4 @@
-name: grp_project
+name: lab5
 description: "A new Flutter project."
 
 publish_to: 'none'
@@ -18,19 +18,6 @@ dependencies:
   floor_generator: ^1.2.0
   build_runner: ^2.3.0
   encrypted_shared_preferences: ^2.0.0
-  sqflite: ^2.0.0+3
-  sqflite_common_ffi: ^2.0.0+2
-  sqflite_common_ffi_web: ^0.4.3+1
-  flutter_material_pickers: ^3.6.0
-  path_provider: ^2.0.0
-  flutter_secure_storage: ^8.0.0
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  build_runner: ^2.3.0
-  floor_generator: ^1.2.0
-  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
